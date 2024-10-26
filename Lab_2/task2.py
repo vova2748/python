@@ -11,4 +11,4 @@ while count > 0:
     money_capital += abs(salary - spend)
     spend *= 1 + increase
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
